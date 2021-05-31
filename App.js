@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-around"
   },
 
-  box {
+  box: {
     width: 100,
     justifyContent: "center",
     alignSelf: "stretch",
