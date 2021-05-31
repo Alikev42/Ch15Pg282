@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     borderColor: "darkslategray"
   },
 
-  boxText {
+  boxText: {
     color: "darkslategray",
     fontWeight: "bold"
   }
