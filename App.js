@@ -3,6 +3,14 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Box from "./Box";
 
+export function Box({children}) {
+  return (
+    <View style={styles.box}>
+      <Text style={styles.boxText}>{children}</Text>
+    </View>
+  )
+},
+
 export default function App() {
   return (
     <View style={styles.container}>
