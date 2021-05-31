@@ -9,7 +9,7 @@ export function Box ({children}) {
       <Text style={styles.boxText}>{children}</Text>
     </View>
   )
-},
+}
 
 export default function App() {
   return (
